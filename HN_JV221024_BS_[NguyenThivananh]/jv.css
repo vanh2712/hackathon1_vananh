@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin:  0 auto;
+}
+
+.big {
+    
+    width: 1200;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left {
+    width: 10%;
+    background-color: rgb(240, 233, 225);
+}
+.center {
+    width: 60%;
+    background-color: rgb(240, 233, 225);
+    text-align: center;
+}
+
+.right {
+    width: 30%;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.right ul {
+    list-style: none;
+}
+
+
+
+.left ul {
+    list-style: none;
+    background-color: white;
+    height: 100%;
+    width: 40px;
+    padding: 0;
+    margin-left: 15px;
+    border-radius: 80px;
+}
+.left ul li {
+    padding: 11px;
+    justify-content: space-between;
+}
+
+.left ul .home a {
+    color: orangered;
+}
+
+.icon .fb a {
+    color: orangered;
+}
+
+.left ul li a {
+    align-items: center;
+    color: black;
+}
+
+.bt button {
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    padding: 7px;
+}
+.images img {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+
+
+.container_flex {
+    text-align: center;
+}
+
+.container_flex button {
+    border: 1px solid grey;
+}
+
+.CV button {
+    border: 1px solid orangered;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 80px;
+    height: 40px;
+    width: 150px;
+    
+}
+
+.end {
+    padding: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icon li a {
+    color: white;
+    padding: 10px;
+    
+}
+
+.right h2 {
+    padding: 20px;
+}
+
